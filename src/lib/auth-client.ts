@@ -1,5 +1,5 @@
 import { twoFactorClient } from 'better-auth/plugins'
-import { passkeyClient } from 'better-auth/plugins/passkey'
+import { passkeyClient } from "better-auth/client/plugins"
 import { createAuthClient } from 'better-auth/react'
 import { env } from '@/env'
 
